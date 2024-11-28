@@ -1,0 +1,36 @@
+{"protocolVersion":"0.1.1","runnerVersion":null,"pid":26044,"type":"start","time":0}
+{"suite":{"id":0,"platform":"vm","path":"C:/Users/Bruno/Documents/counter_app/integration_test/app_test.dart"},"type":"suite","time":0}
+{"test":{"id":1,"name":"loading C:/Users/Bruno/Documents/counter_app/integration_test/app_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":3}
+{"count":1,"time":9,"type":"allSuites"}
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":17713}
+{"group":{"id":2,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":null,"column":null,"url":null},"type":"group","time":17715}
+{"group":{"id":3,"suiteID":0,"parentID":2,"name":"end-to-end test","metadata":{"skip":false,"skipReason":null},"testCount":2,"line":9,"column":3,"url":"c:/Users/Bruno/Documents/counter_app/integration_test/app_test.dart"},"type":"group","time":17715}
+{"test":{"id":4,"name":"end-to-end test tap on the floating action button, verify counter","suiteID":0,"groupIDs":[2,3],"metadata":{"skip":false,"skipReason":null},"line":171,"column":5,"url":"package:flutter_test/src/widget_tester.dart"},"type":"testStart","time":17715}
+{"testID":4,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":20468}
+{"test":{"id":5,"name":"end-to-end test error test","suiteID":0,"groupIDs":[2,3],"metadata":{"skip":false,"skipReason":null},"line":171,"column":5,"url":"package:flutter_test/src/widget_tester.dart"},"type":"testStart","time":20468}
+{"testID":5,"messageType":"print","message":"══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════","type":"print","time":20710}
+{"testID":5,"messageType":"print","message":"The following TestFailure was thrown running a test:","type":"print","time":20711}
+{"testID":5,"messageType":"print","message":"Expected: exactly one matching candidate","type":"print","time":20712}
+{"testID":5,"messageType":"print","message":"  Actual: _TextWidgetFinder:<Found 0 widgets with text \"Gato\": []>","type":"print","time":20712}
+{"testID":5,"messageType":"print","message":"   Which: means none were found but one was expected","type":"print","time":20712}
+{"testID":5,"messageType":"print","message":"","type":"print","time":20714}
+{"testID":5,"messageType":"print","message":"When the exception was thrown, this was the stack:","type":"print","time":20714}
+{"testID":5,"messageType":"print","message":"#4      main.<anonymous closure>.<anonymous closure> (file:///C:/Users/Bruno/Documents/counter_app/integration_test/app_test.dart:36:7)","type":"print","time":20714}
+{"testID":5,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":20714}
+{"testID":5,"messageType":"print","message":"#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:189:15)","type":"print","time":20714}
+{"testID":5,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":20714}
+{"testID":5,"messageType":"print","message":"#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1032:5)","type":"print","time":20715}
+{"testID":5,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":20715}
+{"testID":5,"messageType":"print","message":"<asynchronous suspension>","type":"print","time":20716}
+{"testID":5,"messageType":"print","message":"(elided one frame from package:stack_trace)","type":"print","time":20717}
+{"testID":5,"messageType":"print","message":"","type":"print","time":20717}
+{"testID":5,"messageType":"print","message":"This was caught by the test expectation on the following line:","type":"print","time":20717}
+{"testID":5,"messageType":"print","message":"  file:///C:/Users/Bruno/Documents/counter_app/integration_test/app_test.dart line 36","type":"print","time":20719}
+{"testID":5,"messageType":"print","message":"The test description was:","type":"print","time":20719}
+{"testID":5,"messageType":"print","message":"  error test","type":"print","time":20719}
+{"testID":5,"messageType":"print","message":"════════════════════════════════════════════════════════════════════════════════════════════════════","type":"print","time":20719}
+{"testID":5,"error":"Test failed. See exception logs above.\nThe test description was: error test","stackTrace":"","isFailure":false,"type":"error","time":20720}
+{"testID":5,"result":"error","skipped":false,"hidden":false,"type":"testDone","time":20726}
+{"test":{"id":6,"name":"(tearDownAll)","suiteID":0,"groupIDs":[2],"metadata":{"skip":false,"skipReason":null},"line":42,"column":5,"url":"package:integration_test/integration_test.dart"},"type":"testStart","time":20727}
+{"testID":6,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":20739}
+{"success":false,"type":"done","time":21402}
